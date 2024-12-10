@@ -1,0 +1,19 @@
+.racer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:white;
+  }
+  
+  .racer-logo {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .racer-logo:active {
+    transform: scale(1.1);  
+  }
+  
